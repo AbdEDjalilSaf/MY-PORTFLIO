@@ -46,13 +46,13 @@ pagination={{
 className="mySwiper"
 >
 <SwiperSlide>
-    <section className='landing bg-black '>
+    <section className='landing  '>
   <div className='flexLanding'>
     <div className='textLanding'>
 
     </div>
     <div className='imageLanding'>
-      <img src='/image/home_img.png' className='' />
+      <img src='/image/macbook.jpg' className='' />
     </div>
   </div>
 

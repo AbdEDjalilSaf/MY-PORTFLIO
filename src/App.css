@@ -30,7 +30,7 @@ a {
   color: #cdf381;
 
 }
-.myGradient{
+/* .myGradient{
   background: -webkit-linear-gradient(
     120deg,
     var(--primary-color-alt),
@@ -38,7 +38,7 @@ a {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
-}
+} */
 li a{
   font-size: 40px;
 color: #cdf381;
@@ -49,6 +49,7 @@ color: #cdf381;
 li a{
   cursor: pointer;
 }
+.landing,
 .bgHeader{
   background-color: #503bd5;
 }
