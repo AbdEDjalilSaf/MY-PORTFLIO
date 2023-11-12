@@ -27,13 +27,8 @@ a {
 .logo{
   font-size: 37px;
   user-select: none;
-  background: -webkit-linear-gradient(
-    120deg,
-    var(--primary-color-alt),
-    var(--primary-color)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #cdf381;
+
 }
 .myGradient{
   background: -webkit-linear-gradient(
@@ -46,19 +41,16 @@ a {
 }
 li a{
   font-size: 40px;
-  background: -webkit-linear-gradient(
-    120deg,
-    var(--primary-color-alt),
-    var(--primary-color)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+color: #cdf381;
 }
 .menuSvg{
   transition: all 10s ease;
 }
 li a{
   cursor: pointer;
+}
+.bgHeader{
+  background-color: #503bd5;
 }
 .textLink{
   font-size: 22px;
@@ -68,40 +60,16 @@ li a{
   font-size: 20px;
   font-weight: 800;
 }
-.active{
-  font-size: 25px;
-  position: relative;
-  font-weight: 800;
-  z-index: 10;
-  transition: 2s ease;
-  transition-delay: 2s;
-}
-.active::before{
-  content: "";
-  position: absolute;
-  transition: 2s ease;
-  transition-delay: 2s;
-  width: 17px;
-  height: 17px;
-  right: 0;
-  transform: translateX(-100px);
-  opacity: 0.7;
-  z-index: -1;
-  display: none;
-  border-radius: 3px;
-  top: 30%;
+.active:hover{
   background: -webkit-linear-gradient(
     120deg,
     var(--primary-color-alt),
     var(--primary-color)
   );
- 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.active:hover:before{
-  display: block;
-  transform: translateX(-10px);
-  transition: 2s ease;
-}
+
 @media (max-width:469px) {
   .landing{
     min-height: 80vh;
