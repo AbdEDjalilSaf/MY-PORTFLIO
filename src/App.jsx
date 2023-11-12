@@ -1,8 +1,14 @@
-import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
+import { Swiper, SwiperSlide } from 'swiper/react';
 import './App.css'
+import React, { useRef, useState } from 'react';
+// import { Mousewheel, Pagination } from 'swiper/modules';
 
+// Import Swiper React components
+// // Import Swiper styles
+// import 'swiper/css';
+// import 'swiper/css/pagination';
 
 function App() {
 
@@ -12,6 +18,7 @@ const clickMenuSvg = ()=>{
 }
 
 return (
+
 
 <div className='bg-black '>
 
@@ -28,6 +35,17 @@ return (
 </ul>
 </header> 
 {/* -------------------------------  landing  ------------------------- */}
+<Swiper
+direction={'vertical'}
+slidesPerView={1}
+spaceBetween={30}
+mousewheel={true}
+pagination={{
+  clickable: true,
+}}
+className="mySwiper"
+>
+<SwiperSlide>
     <section className='landing bg-black '>
   <div className='flexLanding'>
     <div className='textLanding'>
@@ -50,9 +68,42 @@ return (
 
 
     </section>
+    </SwiperSlide>
+
+
+
+
+
+
+
+
+
+
+
+    </Swiper>
+
+
+
+
+
+
 
     </div>
+   
+
   )
 }
+
+
+
+
+
+
+{/* <SwiperSlide>Slide 2</SwiperSlide>
+<SwiperSlide>Slide 3</SwiperSlide>
+<SwiperSlide>Slide 4</SwiperSlide> */}
+
+
+
 
 export default App
