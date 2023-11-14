@@ -52,6 +52,40 @@ li a{
 .bgHeader{
   background-color: #503bd5;
 }
+.textLanding p{
+  color: #fff;
+}
+.textLanding{
+  text-transform: capitalize;
+  gap: 25px;
+}
+.imageLanding{
+  position: relative;
+}
+.imageLanding img{
+  z-index: 10;
+}
+.imageLanding .one{
+position: absolute;
+left: -53%;
+top: -47%;
+z-index: 1;
+}
+.imageLanding .two{
+  position: absolute;
+  right: 70%;
+  top: 20%;
+  z-index: 1;
+}
+.imageLanding .three{
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  z-index: 100;
+}
+.imageLanding .four{
+  
+}
 .textLink{
   font-size: 22px;
   font-weight: 800;
@@ -101,16 +135,6 @@ ul, ol, li {
   -webkit-text-fill-color: transparent;
 }
 
-@media (max-width:469px) {
-  .landing{
-    min-height: 80vh;
-  }
-}
-@media (min-width:470px) {
-  .landing{
-    min-height: 73vh;
-  }
-}
 .textLanding p{
   padding: 0 20px;
 }
@@ -119,14 +143,12 @@ ul, ol, li {
   padding: 0 20px;
   color: #cdf381;
 }
-/* .landing{
-  min-height: 100vh;
-} */
+
 .textLanding{
   background-color: #503bd5;
 }
 .imageLanding{
-  background-color:#cdf381 ;
+  background-color: #503bd5;
 }
 .macbookImg{
 }
@@ -137,11 +159,24 @@ ul, ol, li {
   .flexLanding{
     flex-wrap: wrap;
     margin-top: 40px;
-    padding: 0 20px;
+    min-height: 105vh;
+    gap: 50px;
+    padding: 0 30px;
   }
   .textLanding h3{
     font-size: 28px;
     font-weight: 800;
+  }
+  .imageLanding{
+    margin-top: 10px;
+  }
+  .imageLanding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imageLanding img{
+    max-width:320px;
   }
   .dot{
     position: absolute;
@@ -151,6 +186,10 @@ ul, ol, li {
     height: 8px;
     background-color: #fff;
     border-radius: 50%;
+  }
+  .shortText .two,
+  .shortText .one{
+  font-size: 11px;
   }
 }
 @media (max-width:470px) {
