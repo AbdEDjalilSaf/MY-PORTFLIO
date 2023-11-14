@@ -17,6 +17,7 @@ const clickMenuSvg = ()=>{
   setIsOpen(!isOpen);
 }
 
+
 return (
 
 
@@ -47,12 +48,14 @@ className="mySwiper"
 >
 <SwiperSlide>
     <section className='landing  '>
-  <div className='flexLanding'>
-    <div className='textLanding'>
-
+  <div className='flexLanding flex w-full items-center justify-center'>
+    <div className='textLanding flex justify-center flex-col items-center'>
+<h3 className='text-left '>Great User Experiences <br /> With Programming and Excellence<span className='dot'></span></h3>
+    <p>I like to craft solid and scalable frontend products with great user Design and experiences.</p>
+    
     </div>
     <div className='imageLanding'>
-      <img src='/image/macbook.jpg' className='' />
+      <img src='/image/macbook.jpg' className='macbookImg' />
     </div>
   </div>
 
