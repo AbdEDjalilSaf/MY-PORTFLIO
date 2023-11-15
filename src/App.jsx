@@ -51,10 +51,10 @@ className="mySwiper"
   <div className='flexLanding flex w-full items-center justify-center'>
     <div className='textLanding flex justify-center flex-col items-center'>
 <h3 className='text-left '>Great User Experiences <br /> With Programming and Excellence<span className='dot'></span></h3>
-    <p>I like to craft solid and scalable frontend products with great user Design and experiences.</p>
+    <p>I like to craft solid and scalable frontend products with great user Design and experiences .</p>
   <div className='shortText flex '>
-    <p className='one'>Highly skilled at progressive enhancement, design systems & UI Engineering.</p>
-    <p className='two'>Proven experience building successful products for clients across several</p>
+    <p className='one'>Highly skilled at progressive enhancement, design systems & UI Engineering .</p>
+    <p className='two'>Proven experience building successful products for clients across several .</p>
   </div>
     </div>
     <div className='imageLanding'>
@@ -64,9 +64,6 @@ className="mySwiper"
     <path fill="none" stroke="#ffffff" stroke-miterlimit="50" stroke-width="2" d="M17.053 9.57a7.891 7.891 0 11-15.782 0 7.891 7.891 0 0115.782 0zM45.122 9.57a7.891 7.891 0 11-15.782 0 7.891 7.891 0 0115.782 0zM73.19 9.57a7.891 7.891 0 11-15.781 0 7.891 7.891 0 0115.782 0zM101.26 9.57a7.891 7.891 0 11-15.782 0 7.891 7.891 0 0115.782 0zM129.329 9.57a7.891 7.891 0 11-15.783 0 7.891 7.891 0 0115.783 0zM238.083 103.963v0l-.561 22.259v0l22.259-.561v0l-.561 22.258v0l22.259-.56v0l-.561 22.258v0l22.259-.56v0l-.559 22.26v0l22.26-.56v0"></path>
     </svg>
     <svg xmlns="http://www.w3.org/2000/svg" className='three' width="223" height="214" viewBox="0 0 523 214" data-shape="true" aria-hidden="true" id="cs-pattern-right">
-    <path fill="none" stroke="#ffffff" stroke-miterlimit="50" stroke-width="2" d="M16.753 9.614a7.891 7.891 0 11-15.782 0 7.891 7.891 0 0115.782 0zM44.822 9.614a7.892 7.892 0 11-15.784-.002 7.892 7.892 0 0115.784.002zM72.89 9.614a7.891 7.891 0 11-15.782 0 7.891 7.891 0 0115.783 0zM100.96 9.614a7.892 7.892 0 11-15.783-.002 7.892 7.892 0 0115.783.002zM129.028 9.614a7.891 7.891 0 11-15.782 0 7.891 7.891 0 0115.782 0z"></path></svg>
-
-    <svg xmlns="http://www.w3.org/2000/svg" className='four' width="223" height="214" viewBox="0 0 523 214" data-shape="true" aria-hidden="true" id="cs-pattern-right">
     <path fill="none" stroke="#ffffff" stroke-miterlimit="50" stroke-width="2" d="M16.753 9.614a7.891 7.891 0 11-15.782 0 7.891 7.891 0 0115.782 0zM44.822 9.614a7.892 7.892 0 11-15.784-.002 7.892 7.892 0 0115.784.002zM72.89 9.614a7.891 7.891 0 11-15.782 0 7.891 7.891 0 0115.783 0zM100.96 9.614a7.892 7.892 0 11-15.783-.002 7.892 7.892 0 0115.783.002zM129.028 9.614a7.891 7.891 0 11-15.782 0 7.891 7.891 0 0115.782 0z"></path></svg>
     <img src='/image/macbook.jpg' className='macbookImg' />
     </div>

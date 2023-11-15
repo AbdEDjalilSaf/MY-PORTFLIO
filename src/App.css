@@ -65,24 +65,6 @@ li a{
 .imageLanding img{
   z-index: 10;
 }
-.imageLanding .one{
-position: absolute;
-left: -53%;
-top: -47%;
-z-index: 1;
-}
-.imageLanding .two{
-  position: absolute;
-  right: 70%;
-  top: 20%;
-  z-index: 1;
-}
-.imageLanding .three{
-  position: absolute;
-  left: 50%;
-  top: 75%;
-  z-index: 100;
-}
 .imageLanding .four{
   
 }
@@ -163,20 +145,40 @@ ul, ol, li {
     gap: 50px;
     padding: 0 30px;
   }
+  .shortText{
+margin-top: 50px;
+  }
   .textLanding h3{
     font-size: 28px;
     font-weight: 800;
   }
   .imageLanding{
-    margin-top: 10px;
-  }
-  .imageLanding{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
   }
   .imageLanding img{
-    max-width:320px;
+    max-width: calc(100% - 70px);
+    margin-right: 24px;
+  }
+  .imageLanding .one{
+    position: absolute;
+    left: -23%;
+    top: -38%;
+    z-index: 1;
+  }
+  .imageLanding .two{
+      position: absolute;
+      right: 76%;
+      top: 20%;
+      z-index: 1;
+  }
+  .imageLanding .three{
+      position: absolute;
+      left: 47%;
+      top: 83%;
+      z-index: 100;
   }
   .dot{
     position: absolute;
@@ -197,8 +199,59 @@ ul, ol, li {
     font-size: 33px;
     font-weight: 900;
   }
+  .imageLanding img{
+    max-width: calc(100% - 30px);
+  }
+  .imageLanding {
+    margin-top: -30px;
+  }
+  .imageLanding .one{
+    position: absolute;
+    left: -38%;
+    top: -43%;
+    z-index: 1;
+  }
+  .imageLanding .two{
+      position: absolute;
+      right: 73%;
+      top: 20%;
+      z-index: 1;
+  }
+  .imageLanding .three{
+      position: absolute;
+      left: 40%;
+      top: 80%;
+      z-index: 100;
+  }
 }
 
+@media (max-width:320px) {
+  .imageLanding img{
+    max-width: calc(100% - 4px);
+  }
+  .imageLanding {
+    margin-top: -18px;
+  }
+  .imageLanding .one{
+    position: absolute;
+    left: -62%;
+    top: -27%;
+    z-index: 1;
+  }
+  .imageLanding .two{
+      position: absolute;
+      right: 55%;
+      top: 20%;
+      z-index: 1;
+  }
+  .imageLanding .three{
+      position: absolute;
+      left: 11%;
+      top: 60%;
+      z-index: 100;
+  }
+  
+}
 
 
 
