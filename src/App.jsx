@@ -50,8 +50,9 @@ className="mySwiper"
     <section className='landing  '>
   <div className='flexLanding flex w-full items-center justify-center'>
     <div className='textLanding flex justify-center flex-col items-center'>
+<div>
 <h3 className='text-left '>Great User Experiences <br /> With Programming and Excellence<span className='dot'></span></h3>
-    <p>I like to craft solid and scalable frontend products with great user Design and experiences .</p>
+    <p>I like to craft solid and scalable frontend products with great user Design and experiences .</p></div>
   <div className='shortText flex '>
     <p className='one'>Highly skilled at progressive enhancement, design systems & UI Engineering .</p>
     <p className='two'>Proven experience building successful products for clients across several .</p>
