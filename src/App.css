@@ -30,15 +30,6 @@ a {
   color: #cdf381;
 
 }
-/* .myGradient{
-  background: -webkit-linear-gradient(
-    120deg,
-    var(--primary-color-alt),
-    var(--primary-color)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-} */
 li a{
   font-size: 40px;
 color: #cdf381;
@@ -148,8 +139,8 @@ ul, ol, li {
   .flexLanding{
     margin-top: 20px;
     align-items: center;
-    min-height: 78vh;
-    gap: 50px;
+    min-height: 75vh;
+    gap: 60px;
     padding: 0 30px;
   }
   .imageLanding svg{
@@ -159,13 +150,30 @@ ul, ol, li {
     font-size: 25px;
     font-weight: 800;
   }
+  .imageLanding img{
+    max-width: 100%;
+    z-index: 200;
+  }
   .imageLanding .one{
-    display: none;
+    position: absolute;
+    left: -43%;
+    top: -44%;
+    z-index: 1;
   }
   .imageLanding .two{
-    display: none;
-  }.imageLanding .three{
-    display: none;
+      position: absolute;
+      right: 77%;
+      top: 20%;
+      z-index: 1;
+  }
+  .imageLanding .three{
+      position: absolute;
+      left: 44%;
+      top: 80%;
+      z-index: 1;
+  }
+  .imageLanding .three path{
+    stroke: #fff;
   }
   .shortText p{
     font-size: 13px;
@@ -220,7 +228,7 @@ margin-top: 50px;
       z-index: 1;
   }
   .imageLanding .two  path {
-    stroke: #503bd5;
+    stroke: #fff;
   }.imageLanding .three path{
     stroke: #503bd5;
   }
