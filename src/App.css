@@ -135,6 +135,7 @@ ul, ol, li {
 } */
 .macbookImg{
 }
+
 @media (min-width:768px) {
   .flexLanding{
     margin-top: 20px;
@@ -147,22 +148,31 @@ ul, ol, li {
     width: auto;
   }
   .textLanding h3{
-    font-size: 25px;
+    font-size: 32px;
     font-weight: 800;
   }
   .imageLanding img{
+    position: relative;
     max-width: 100%;
-    z-index: 200;
+  }
+  .imageLanding .spanImage{
+    position: absolute;
+    border: 0.5px solid #fff;
+    width: 100%;
+    height: 100%;
+    top: 12%;
+    left: 15px;
+    /* background-color: #fff; */
   }
   .imageLanding .one{
     position: absolute;
     left: -43%;
     top: -44%;
-    z-index: 1;
+    z-index: 2;
   }
   .imageLanding .two{
       position: absolute;
-      right: 77%;
+      right: 59%;
       top: 20%;
       z-index: 1;
   }
@@ -176,7 +186,7 @@ ul, ol, li {
     stroke: #fff;
   }
   .shortText p{
-    font-size: 13px;
+    font-size: 11px;
   }
   .textLanding{
     width: 80%;
@@ -246,6 +256,66 @@ margin-top: 50px;
   font-size: 11px;
   }
 }
+
+@media (min-width:1024px) {
+  .flexLanding{
+    margin-top: 20px;
+    align-items: center;
+    min-height: 80vh;
+    gap: 85px;
+    padding: 0 35px;
+  }
+  .imageLanding svg{
+    width: auto;
+  }
+  .textLanding h3{
+    font-size: 37px;
+    font-weight: 800;
+    margin-bottom: 18px;
+  }
+  .imageLanding img{
+    position: relative;
+    max-width: 100%;
+  }
+  .imageLanding .spanImage{
+    position: absolute;
+    border: 0.5px solid #fff;
+    width: 100%;
+    height: 100%;
+    top: 12%;
+    left: 15px;
+    /* background-color: #fff; */
+  }
+  .imageLanding .one{
+    position: absolute;
+    left: -43%;
+    top: -44%;
+    z-index: 2;
+  }
+  .imageLanding .two{
+      position: absolute;
+      right: 63%;
+      top: 20%;
+      z-index: 1;
+  }
+  .imageLanding .three{
+      position: absolute;
+      left: 44%;
+      top: 80%;
+      z-index: 1;
+  }
+  .imageLanding .three path{
+    stroke: #fff;
+  }
+  .shortText p{
+    font-size: 11px;
+  }
+  .textLanding{
+    width: 80%;
+    gap: 50px;
+  }
+}
+
 @media (max-width:470px) {
   .textLanding h3{
     font-size: 33px;
