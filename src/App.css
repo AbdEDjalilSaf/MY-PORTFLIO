@@ -316,6 +316,69 @@ margin-top: 50px;
   }
 }
 
+@media (min-width:1200px) {
+  .flexLanding{
+    margin-top: 20px;
+    align-items: center;
+    min-height: 75vh;
+    gap: 105px;
+    padding: 0 50px;
+  }
+  .imageLanding svg{
+    width: auto;
+  }
+  .textLanding h3{
+    font-size: 46px;
+    text-align: left;
+    font-weight: 800;
+    margin-bottom: 18px;
+  }
+  .imageLanding img{
+    position: relative;
+    max-width: calc(100% - 20px);
+  }
+  .imageLanding .spanImage{
+    position: absolute;
+    border: 0.5px solid #fff;
+    width: 100%;
+    height: 100%;
+    top: 12%;
+    left: 11px;
+    /* background-color: #fff; */
+  }
+  .imageLanding .one{
+    position: absolute;
+    left: -39%;
+    top: -37%;
+    z-index: 2;
+  }
+  .imageLanding .two{
+      position: absolute;
+      right: 83%;
+      top: 20%;
+      z-index: 1;
+  }
+  .imageLanding .three{
+      position: absolute;
+      left: 44%;
+      top: 82%;
+      z-index: 1;
+  }
+  .imageLanding .three path{
+    stroke: #fff;
+  }
+  .shortText p{
+    font-size: 13px;
+  }
+  .shortText {
+    padding: 0 80px;
+  }
+  .textLanding{
+    width: 80%;
+    gap: 50px;
+  }
+}
+
 @media (max-width:470px) {
   .textLanding h3{
     font-size: 33px;
