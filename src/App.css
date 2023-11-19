@@ -182,6 +182,15 @@ ul, ol, li {
       top: 80%;
       z-index: 1;
   }
+  .dot{
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
   .imageLanding .three path{
     stroke: #fff;
   }
@@ -304,6 +313,15 @@ margin-top: 50px;
       top: 80%;
       z-index: 1;
   }
+  .dot{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 5px;
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
   .imageLanding .three path{
     stroke: #fff;
   }
@@ -318,20 +336,25 @@ margin-top: 50px;
 
 @media (min-width:1200px) {
   .flexLanding{
-    margin-top: 20px;
+    margin-top: 0px;
     align-items: center;
     min-height: 75vh;
-    gap: 105px;
+    gap: 125px;
     padding: 0 50px;
   }
   .imageLanding svg{
     width: auto;
   }
   .textLanding h3{
-    font-size: 46px;
+    width: calc(100%  - 15px);
+    font-size: 45px;
     text-align: left;
-    font-weight: 800;
+    font-weight: 1200;
     margin-bottom: 18px;
+  }
+  .textLanding p{
+    font-size: 17px;
+    width: calc(100% - 10px);
   }
   .imageLanding img{
     position: relative;
@@ -364,6 +387,15 @@ margin-top: 50px;
       top: 82%;
       z-index: 1;
   }
+  .dot{
+    position: absolute;
+    margin-top: 39px;
+    margin-left: 5px;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
   .imageLanding .three path{
     stroke: #fff;
   }
@@ -371,11 +403,11 @@ margin-top: 50px;
     font-size: 13px;
   }
   .shortText {
-    padding: 0 80px;
+    padding: 0 90px;
   }
   .textLanding{
     width: 80%;
-    gap: 50px;
+    gap: 70px;
   }
 }
 
