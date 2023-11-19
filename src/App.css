@@ -16,7 +16,6 @@
   --white-color-alt: hsl(12, 14%, 93%);
   --dark-color: hsl(300, 100%, 0%);
 }
-
 /* ================= BASE ==================== */
 li {
   list-style: none;
@@ -28,7 +27,6 @@ a {
   font-size: 37px;
   user-select: none;
   color: #cdf381;
-
 }
 li a{
   font-size: 40px;
@@ -126,7 +124,13 @@ ul, ol, li {
   padding: 0 20px;
   color: #cdf381;
 }
-
+.titleDesgin,
+.paraDesin{
+  color: #503bd5;
+}
+.desgin{
+  background-color: #f9f9f9;
+}
 .textLanding{
   background-color: #503bd5;
 }
@@ -389,7 +393,7 @@ margin-top: 50px;
   }
   .dot{
     position: absolute;
-    margin-top: 39px;
+    margin-top: 35px;
     margin-left: 5px;
     width: 14px;
     height: 14px;
@@ -403,7 +407,7 @@ margin-top: 50px;
     font-size: 13px;
   }
   .shortText {
-    padding: 0 90px;
+    padding: 0 100px;
   }
   .textLanding{
     width: 80%;
@@ -475,7 +479,39 @@ margin-top: 50px;
       top: 60%;
       z-index: 1;
   }
-  
+  .desgin{
+    padding: 0 20px;
+  }
+.paraDesin{
+  font-size: 12px;
+  margin-top: 6px;
+  line-height: 22px;
+}
+.titleDesgin{
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
