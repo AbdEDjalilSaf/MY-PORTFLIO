@@ -375,8 +375,9 @@ margin-top: 50px;
   }
   .imageLanding .one{
     position: absolute;
-    left: -39%;
+    left: -53%;
     top: -37%;
+    width: 310px;
     z-index: 2;
   }
   .imageLanding .two{
@@ -452,7 +453,34 @@ margin-top: 50px;
     height: 10px;
     margin-top: 25px;
   }
+  .desgin{
+    padding: 0 33px;
+  }
+.paraDesin{
+  font-size: 13px;
+  margin-top: 6px;
+  line-height: 22px;
 }
+.titleDesgin{
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
 
 @media (max-width:320px) {
   .imageLanding img{
