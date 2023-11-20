@@ -23,7 +23,7 @@ return (
 
   <>
   <div className='bgHeader '>
-
+<section>
     <header className='py-7 header px-10 md:12 lg:py-9 lg:px-15 xl:pt-18 xl:pb-15 xl:px-20 flex items-center justify-between z-50'>
       <a className=' logo appFixed'>S</a>
       <ul className='flex gap-10 items-center'>
@@ -37,7 +37,8 @@ return (
       </ul>
     </header>
     {/* -------------------------------  landing  ------------------------- */}
-    <section className='landing  '>
+  
+    <div className='landing  '>
       <div className='flexLanding flex w-full items-center justify-center'>
         <div className='textLanding flex justify-center flex-col items-center'>
           <div>
@@ -59,8 +60,10 @@ return (
           <span className='spanImage'></span>
         </div>
       </div>
+    </div>
     </section>
   </div>
+  
 <Design />
   
   
@@ -68,8 +71,7 @@ return (
   
   
   
-  
-  
+
   </>
 
 

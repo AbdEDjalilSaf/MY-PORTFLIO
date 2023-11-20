@@ -32,6 +32,14 @@ li a{
   font-size: 40px;
 color: #cdf381;
 }
+
+.landing,
+header{
+  background-color: #503bd5;
+}
+section{
+  scroll-snap-align: start;
+}
 .menuSvg{
   transition: all 10s ease;
 }
@@ -141,6 +149,10 @@ ul, ol, li {
 }
 
 @media (min-width:768px) {
+  html{
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
+    }
   .flexLanding{
     margin-top: 20px;
     align-items: center;
@@ -205,8 +217,43 @@ ul, ol, li {
     width: 80%;
     gap: 50px;
   }
+  .desgin{
+    padding: 0 43px;
+  }
+  .textTwo{
+    margin-top: 40px;
+  }
+.paraDesin{
+  font-size: 14px;
+  margin-top: 6px;
+  line-height: 22px;
+}
+.titleDesgin{
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 5px;
+}
+.desgin .two  path {
+  stroke: #503bd5;
+}
+.desgin .three path{
+  stroke: #503bd5;
+}
+
+
+
+
+
+
+
+
+
 }
 @media (max-width:767px) {
+  html{
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
+    }
   .flexLanding{
     flex-wrap: wrap;
     margin-top: 40px;
@@ -215,7 +262,7 @@ ul, ol, li {
     padding: 0 30px;
   }
   .shortText{
-margin-top: 50px;
+  margin-top: 50px;
   }
   .textLanding h3{
     font-size: 45px;
@@ -268,9 +315,35 @@ margin-top: 50px;
   .shortText .one{
   font-size: 11px;
   }
+  .desgin{
+    padding: 0 43px;
+  }
+  .textTwo{
+    margin-top: 70px;
+  }
+.paraDesin{
+  font-size: 14px;
+  margin-top: 6px;
+  line-height: 22px;
+}
+.titleDesgin{
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 5px;
+}
+
+
+
+
+
+
 }
 
 @media (min-width:1024px) {
+  html{
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
+    }
   .flexLanding{
     margin-top: 20px;
     align-items: center;
@@ -339,10 +412,14 @@ margin-top: 50px;
 }
 
 @media (min-width:1200px) {
+  html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    }
   .flexLanding{
     margin-top: 0px;
     align-items: center;
-    min-height: 75vh;
+    min-height: 80vh;
     gap: 125px;
     padding: 0 50px;
   }
@@ -417,6 +494,10 @@ margin-top: 50px;
 }
 
 @media (max-width:470px) {
+  html{
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
+    }
   .textLanding h3{
     font-size: 33px;
     font-weight: 900;
@@ -453,14 +534,6 @@ margin-top: 50px;
     height: 10px;
     margin-top: 25px;
   }
-  .desgin{
-    padding: 0 33px;
-  }
-.paraDesin{
-  font-size: 13px;
-  margin-top: 6px;
-  line-height: 22px;
-}
 .titleDesgin{
   font-size: 40px;
   font-weight: 900;
@@ -483,6 +556,10 @@ margin-top: 50px;
 
 
 @media (max-width:320px) {
+  html{
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
+    }
   .imageLanding img{
     max-width: calc(100% - 4px);
   }
