@@ -221,7 +221,7 @@ ul, ol, li {
     padding: 0 43px;
   }
   .textTwo{
-    margin-top: 40px;
+    margin-top: 50px;
   }
 .paraDesin{
   font-size: 14px;
@@ -238,11 +238,22 @@ ul, ol, li {
   stroke-width: 0.5%;
 }
 .desgin .three path{
+  width: 270px;
   stroke: #503bd5;
 }
-
-
-
+.groupOneSvg .one{
+  width: 200px;
+}
+.groupOneSvg .three{
+  position: absolute;
+}
+.groupOne .one{
+  width: 200px;
+  position: absolute;
+  top: -100%;
+  left: 30%;
+  transform: rotate(45deg);
+}
 
 
 
@@ -410,6 +421,46 @@ ul, ol, li {
     width: 80%;
     gap: 50px;
   }
+  .desgin{
+    padding: 0 67px;
+  }
+  .textTwo{
+    margin-top: 50px;
+  }
+.paraDesin{
+  font-size: 14px;
+  margin-top: 6px;
+  line-height: 22px;
+}
+.titleDesgin{
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 5px;
+}
+.desgin .one  path {
+  stroke: #503bd5;
+  stroke-width: 0.5%;
+}
+.desgin .three path{
+  width: 270px;
+  stroke: #503bd5;
+}
+.groupOneSvg .one{
+  width: 200px;
+}
+.groupOneSvg .three{
+  position: absolute;
+}
+.groupOne .one{
+  width: 200px;
+  position: absolute;
+  top: -107%;
+  left: 30%;
+  transform: rotate(45deg);
+}
+
+
+
 }
 
 @media (min-width:1200px) {
@@ -492,6 +543,49 @@ ul, ol, li {
     width: 80%;
     gap: 70px;
   }
+  .desgin{
+    padding: 0 67px;
+  }
+  .textTwo{
+    margin-top: 50px;
+  }
+.paraDesin{
+  font-size: 14px;
+  margin-top: 6px;
+  line-height: 22px;
+}
+.titleDesgin{
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 5px;
+}
+.desgin .one  path {
+  stroke: #503bd5;
+  stroke-width: 0.5%;
+}
+.desgin .three path{
+  width: 270px;
+  stroke: #503bd5;
+}
+.groupOneSvg .one{
+  width: 200px;
+}
+.groupOneSvg .three{
+  position: absolute;
+}
+.groupOne .one{
+  width: 200px;
+  position: absolute;
+  top: -107%;
+  left: 30%;
+  transform: rotate(45deg);
+}
+
+
+
+
+
+
 }
 
 @media (max-width:470px) {
