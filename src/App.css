@@ -33,6 +33,16 @@ li a{
 color: #cdf381;
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(100px);
+  transition: all 0.7s ease;
+  opacity: 0;
+}
+.reveal.show{
+transform: translateY(0px);
+opacity: 1;
+}
 .landing,
 header{
   background-color: #503bd5;
@@ -62,9 +72,9 @@ li a{
 .imageLanding img{
   z-index: 10;
 }
-.imageLanding .four{
+/* .imageLanding .four{
   
-}
+} */
 .textLink{
   font-size: 22px;
   font-weight: 800;
@@ -544,14 +554,16 @@ ul, ol, li {
     gap: 70px;
   }
   .desgin{
-    padding: 0 67px;
+    padding: 0 175px;
+    min-height: 100vh;
+    justify-content: center;
   }
   .textTwo{
     margin-top: 50px;
   }
 .paraDesin{
-  font-size: 14px;
-  margin-top: 6px;
+  font-size: 17px;
+  margin-top: 10px;
   line-height: 22px;
 }
 .titleDesgin{
@@ -580,8 +592,12 @@ ul, ol, li {
   left: 30%;
   transform: rotate(45deg);
 }
-
-
+.groupOneSvg .one{
+  width: 290px;
+}
+.groupOneSvg .three{
+  width: 280px;
+}
 
 
 

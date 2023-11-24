@@ -26,7 +26,7 @@ return (
   <div className='bgHeader '>
 <section>
     <header className='py-7 header px-10 md:12 lg:py-9 lg:px-15 xl:pt-18 xl:pb-15 xl:px-20 flex items-center justify-between z-50'>
-      <a className=' logo appFixed'>S</a>
+      <a className=' logo appFixed cursor-pointer'>S</a>
       <ul className='flex gap-10 items-center'>
         <li><a className='textLink hidden md:block  active'>Home</a></li>
         <li><a className='textBase hidden md:block'>PROJECTS</a></li>
