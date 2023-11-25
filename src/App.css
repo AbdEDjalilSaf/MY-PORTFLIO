@@ -49,6 +49,13 @@ header{
 }
 section{
   scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+.overYears{
+  background-color: #503bd5;
+}
+.overtitle{
+  color: #cdf381;
 }
 .menuSvg{
   transition: all 10s ease;

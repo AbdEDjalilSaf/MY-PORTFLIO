@@ -4,12 +4,9 @@ import './App.css'
 import React, { useRef, useState } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import Design from './Desgin.jsx'
-// import { Mousewheel, Pagination } from 'swiper/modules';
+import Overyears from './Overyears.jsx'
 
-// Import Swiper React components
-// // Import Swiper styles
-// import 'swiper/css';
-// import 'swiper/css/pagination';
+
 
 function App() {
 
@@ -64,9 +61,9 @@ return (
     </div>
     </section>
   </div>
-  
+
 <Design />
-  
+<Overyears />
   
   
   
