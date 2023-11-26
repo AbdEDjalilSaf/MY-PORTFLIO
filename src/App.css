@@ -360,6 +360,32 @@ ul, ol, li {
   font-weight: 900;
   margin-left: 5px;
 }
+.overYears{
+  padding: 45px 55px 25px;
+}
+.overtitle{
+  font-size: 35px;
+  font-weight: 900;
+}
+.overSpan{
+  font-size: 50px;
+  font-weight: 900;
+  margin-left: 4px;
+  color: #cdf381;
+}
+.overParaOne{
+  margin-top: 25px;
+}
+.overParatwo{
+  margin-top: 30px;
+}
+.imageSvg{
+  padding: 15px 25px;
+}
+.imageSvg svg{
+  width: 100%;
+  height: 100%;
+}
 
 
 
@@ -657,6 +683,29 @@ ul, ol, li {
   font-weight: 900;
   margin-left: 5px;
 }
+.overYears{
+  padding: 25px 30px;
+}
+.overtitle{
+  font-size: 35px;
+  font-weight: 900;
+}
+.overSpan{
+  font-size: 50px;
+  font-weight: 900;
+  margin-left: 4px;
+  color: #cdf381;
+}
+.overParaOne{
+  margin-top: 25px;
+}
+.overParatwo{
+  margin-top: 30px;
+}
+.imageSvg svg{
+  width: 100%;
+  height: 100%;
+}
 
 
 
@@ -715,9 +764,28 @@ ul, ol, li {
   font-weight: 900;
   margin-left: 5px;
 }
-
-
-
+.overYears{
+  padding: 25px 30px;
+}
+.overtitle{
+  font-size: 27px;
+}
+.overSpan{
+  font-size: 50px;
+  font-weight: 900;
+  margin-left: 4px;
+  color: #cdf381;
+}
+.overParaOne{
+  margin-top: 25px;
+}
+.overParatwo{
+  margin-top: 30px;
+}
+.imageSvg svg{
+  width: 100%;
+  height: 100%;
+}
 
 
 
