@@ -530,14 +530,17 @@ ul, ol, li {
 .overYears{
   padding: 55px 75px;
   display: flex;
-  gap: 190px;
+  gap: 50px;
+}
+.overtext{
+  width: 70%;
 }
 .overtitle{
   font-size: 40px;
   font-weight: 900;
 }
 .overSpan{
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 900;
   margin-left: 4px;
   color: #cdf381;
@@ -549,12 +552,9 @@ ul, ol, li {
   margin-top: 30px;
 }
 .imageSvg{
-  padding: 0px;
+  padding: 0;
 }
-.imageSvg svg{
-  width: 100%;
-  height: 100%;
-}
+
 
 
 
