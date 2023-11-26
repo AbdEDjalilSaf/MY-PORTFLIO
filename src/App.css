@@ -271,6 +271,32 @@ ul, ol, li {
   left: 30%;
   transform: rotate(45deg);
 }
+.overYears{
+  padding: 55px 75px 25px;
+}
+.overtitle{
+  font-size: 40px;
+  font-weight: 900;
+}
+.overSpan{
+  font-size: 50px;
+  font-weight: 900;
+  margin-left: 4px;
+  color: #cdf381;
+}
+.overParaOne{
+  margin-top: 25px;
+}
+.overParatwo{
+  margin-top: 30px;
+}
+.imageSvg{
+  padding: 55px 75px;
+}
+.imageSvg svg{
+  width: 100%;
+  height: 100%;
+}
 
 
 
@@ -500,6 +526,34 @@ ul, ol, li {
   top: -107%;
   left: 30%;
   transform: rotate(45deg);
+}
+.overYears{
+  padding: 55px 75px;
+  display: flex;
+  gap: 190px;
+}
+.overtitle{
+  font-size: 40px;
+  font-weight: 900;
+}
+.overSpan{
+  font-size: 50px;
+  font-weight: 900;
+  margin-left: 4px;
+  color: #cdf381;
+}
+.overParaOne{
+  margin-top: 25px;
+}
+.overParatwo{
+  margin-top: 30px;
+}
+.imageSvg{
+  padding: 0px;
+}
+.imageSvg svg{
+  width: 100%;
+  height: 100%;
 }
 
 
