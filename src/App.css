@@ -685,6 +685,39 @@ ul, ol, li {
 .groupOneSvg .three{
   width: 280px;
 }
+.overYears{
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.overtext{
+  width: 40%;
+}
+.overtitle{
+  font-size: 40px;
+  font-weight: 900;
+}
+.overSpan{
+  font-size: 60px;
+  font-weight: 900;
+  margin-left: 4px;
+  color: #cdf381;
+}
+.overParaOne{
+  margin-top: 25px;
+  /* padding-right:200px; */
+}
+.overParatwo{
+  margin-top: 30px;
+  /* padding-right:200px; */
+
+}
+.imageSvg{
+  padding: 0;
+}
 
 
 
