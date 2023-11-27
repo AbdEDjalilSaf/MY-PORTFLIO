@@ -28,6 +28,11 @@ a {
   user-select: none;
   color: #cdf381;
 }
+a::selection,
+h3::selection,
+p::selection{
+  background-color: #503bd5 / 50%;
+}
 li a{
   font-size: 40px;
 color: #cdf381;
@@ -562,7 +567,7 @@ ul, ol, li {
 
 @media (min-width:1200px) {
   html{
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: none;
     scroll-behavior: smooth;
     }
   .flexLanding{
@@ -687,17 +692,17 @@ ul, ol, li {
 }
 .overYears{
   padding: 0;
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 50px;
+  gap: 140px;
 }
 .overtext{
   width: 40%;
 }
 .overtitle{
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 900;
 }
 .overSpan{
@@ -708,10 +713,12 @@ ul, ol, li {
 }
 .overParaOne{
   margin-top: 25px;
+  font-size: 20px;
   /* padding-right:200px; */
 }
 .overParatwo{
   margin-top: 30px;
+  font-size: 20px;
   /* padding-right:200px; */
 
 }

@@ -5,7 +5,7 @@ import React, { useRef, useState } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import Design from './Desgin.jsx'
 import Overyears from './Overyears.jsx'
-
+import Article from './Article.jsx'
 
 
 function App() {
@@ -64,7 +64,7 @@ return (
 
 <Design />
 <Overyears />
-  
+<Article />
   
   
   
