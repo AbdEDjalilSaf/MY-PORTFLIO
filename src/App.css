@@ -830,23 +830,24 @@ ul, ol, li {
   border: 1px solid #503bd5;
   padding: 8px 10px;
 }
-.articleButton::before{
+.articleLink::before{
   content: "";
   position: absolute;
   left: 0;
   top: 0;
+  z-index: 1;
 width: 0;
 height: 100%;
-transition: all 0.3 ease;
+transition: all 0.3s ease;
 background-color:#503bd5;
-color: #fff;
 }
-.articleButton:hover:before{
+.articleLink:hover:before{
 width: 100%;
 }
 .articleLink{
   font-size: 10px;
   color: #503bd5;
+  z-index: 100;
 }
 
 
