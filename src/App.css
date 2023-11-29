@@ -429,6 +429,48 @@ ul, ol, li {
   width: 100%;
   height: 100%;
 }
+.article{
+  padding: 52px 17px;
+}
+.articleDesgin{
+  padding: 50px 40px;
+}
+#articleOne{
+  border-bottom: 1px solid #503bd5;
+}
+.articleTitle{
+  font-size: 28px;
+  margin-bottom: 13px;
+}
+.articlePara{
+  margin-bottom: 25px;
+}
+.articleButton{
+  width: 100%;
+  border: 1px solid #503bd5;
+  padding: 8px 10px;
+}
+.articleButton::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+width: 0;
+height: 100%;
+transition: all 0.3s ease;
+background-color:#503bd5;
+}
+.articleButton:hover:before{
+width: 100%;
+}
+.articleLink{
+  font-size: 10px;
+  color: #503bd5;
+  z-index: 100;
+}
+
+
 
 
 
@@ -579,7 +621,7 @@ ul, ol, li {
 
 @media (min-width:1200px) {
   html{
-    scroll-snap-type: none;
+    scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     }
   .flexLanding{
@@ -833,7 +875,7 @@ ul, ol, li {
   border: 1px solid #503bd5;
   padding: 8px 10px;
 }
-.articleLink::before{
+.articleButton::before{
   content: "";
   position: absolute;
   left: 0;
@@ -844,7 +886,7 @@ height: 100%;
 transition: all 0.3s ease;
 background-color:#503bd5;
 }
-.articleLink:hover:before{
+.articleButton:hover:before{
 width: 100%;
 }
 .articleLink{
