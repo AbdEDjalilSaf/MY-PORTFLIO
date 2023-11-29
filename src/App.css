@@ -664,7 +664,7 @@ width: 100%;
 
 @media (min-width:1200px) {
   html{
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: none;
     scroll-behavior: smooth;
     }
   .flexLanding{
