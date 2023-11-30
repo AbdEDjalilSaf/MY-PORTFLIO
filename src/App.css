@@ -26,6 +26,10 @@ a {
 .headerFixed{
   z-index: 500;
 }
+.hidNULL{
+  transition: all 0.5s ease;
+  opacity: 0.5;
+}
 .logo{
   font-size: 37px;
   user-select: none;

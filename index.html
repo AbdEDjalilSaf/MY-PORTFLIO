@@ -32,6 +32,18 @@ if(revealTop < windowHeight - revealPoint){
 }
 }
 
+
+let lastScrollTop = 0;
+let navbar  = document.querySelector(".headerFixed");
+window.addEventListener("scroll",()=>{
+let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+if( scrollTop > lastScrollTop){
+  navbar.style.top = '-100px';
+}else{
+  navbar.style.top = '0';
+}
+lastScrollTop = scrollTop;
+});
     </script>
   </body>
 </html>
