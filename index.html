@@ -32,20 +32,9 @@ if(revealTop < windowHeight - revealPoint){
 }
 }
 </script>
-<script type="text/javascript">
-  let lastScrollY = window.scrollY;
-const navbar = document.getElementsByClassName("header");
-window.addEventListener("scroll",()=>{
 
-  if( lastScrollY < window.scrollY){
-console.log("down");
-navbar.classList.add("hidNULL");
-}else{
-  console.log("up");
-  navbar.classList.remove("hidNULL");
-}
-lastScrollY = window.scrollY;
-});
-</script>
+
+
+
   </body>
 </html>
