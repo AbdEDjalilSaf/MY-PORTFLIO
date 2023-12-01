@@ -22,7 +22,7 @@ return (
   <>
   <div className='bgHeader '>
 <section>
-<div className='w-full fixed headerFixed  top-0'>
+<div className='w-full fixed headerFixed top-0'>
     <header className='py-4 header px-10  lg:py-7 lg:px-15 xl:pt-5 xl:pb-5 xl:px-20 flex items-center justify-between z-50'>
       <a className=' logo appFixed cursor-pointer'>S</a>
       <ul className='flex gap-10 items-center'>
