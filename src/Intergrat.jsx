@@ -28,8 +28,21 @@ return(
         </svg>
         
 
-
-
+<div className="intergratTextOne">
+<h3 className="intergratTitle">Meeting with UX & UI Desginer</h3>
+<p className="intergratPara">We discuss the tasks and propose a design that meets the needs and satisfies all parties. After the design,
+ we begin discussing the improvements that can be added.</p>
+</div>
+<div className="intergratTextTwo">
+<h3 className="intergratTitle"></h3>
+<p className="intergratPara">We discuss the tasks and propose a design that meets the needs and satisfies all parties. After the design,
+ we begin discussing the improvements that can be added.</p>
+</div>
+<div className="intergratTextThree">
+<h3 className="intergratTitle"></h3>
+<p className="intergratPara">We discuss the tasks and propose a design that meets the needs and satisfies all parties. After the design,
+ we begin discussing the improvements that can be added.</p>
+</div>
 
 
 
