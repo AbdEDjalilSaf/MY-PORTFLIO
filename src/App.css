@@ -45,7 +45,6 @@ li a{
 font-size: 40px;
 color: #cdf381;
 }
-
 .reveal{
   position: relative;
   transform: translateY(100px);
@@ -112,9 +111,9 @@ li a{
 .imageLanding img{
   z-index: 10;
 }
-/* .imageLanding .four{
-  
-} */
+.intergratTitle{
+  color: #503bd5;
+}
 .textLink{
   font-size: 22px;
   font-weight: 800;
