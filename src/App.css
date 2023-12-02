@@ -42,7 +42,7 @@ p::selection{
   background-color: #503bd5 / 50%;
 }
 li a{
-  font-size: 40px;
+font-size: 40px;
 color: #cdf381;
 }
 
@@ -55,6 +55,14 @@ color: #cdf381;
 .reveal.show{
 transform: translateY(0px);
 opacity: 1;
+}
+.growth{
+  position: relative;
+  transition: all 0.7s ease;
+  opacity: 0;
+}
+.growth.grow{
+  opacity: 1;
 }
 .landing,
 header{
@@ -75,6 +83,9 @@ section{
 }
 .overYears{
   background-color: #503bd5;
+}
+.intergrat{
+  background-color: #fff;
 }
 .overtitle{
   color: #cdf381;

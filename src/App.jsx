@@ -6,6 +6,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 import Design from './Desgin.jsx'
 import Overyears from './Overyears.jsx'
 import Article from './Article.jsx'
+import Intergrat from './Intergrat.jsx'
 
 
 function App() {
@@ -67,7 +68,7 @@ return (
 <Design />
 <Overyears />
 <Article />
-  
+<Intergrat />                       
   
   
   
