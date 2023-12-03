@@ -24,7 +24,7 @@ return (
   <div className='bgHeader '>
 <section className='relative '>
 <div className='w-full fixed headerFixed overflow-x-hidden top-0'>
-    <header className='py-4 header px-10 overflow-x-hidden lg:py-7 lg:px-15 xl:pt-5 xl:pb-5 xl:px-20 flex items-center justify-between z-50'>
+    <header className='py-4 header justify-between px-10 overflow-x-hidden lg:py-7 lg:px-15 xl:pt-5 xl:pb-5 xl:px-20 flex items-center md:justify-between xl:justify-between lg:justify-between z-50'>
       <a className=' logo appFixed cursor-pointer'>S</a>
       <ul className='flex gap-10 items-center'>
         <li><a className='textLink hidden md:block  active'>Home</a></li>

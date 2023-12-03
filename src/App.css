@@ -20,6 +20,9 @@
 li {
   list-style: none;
 }
+body{
+  overflow-x: hidden;
+}
 a {
   text-decoration: none;
 }
