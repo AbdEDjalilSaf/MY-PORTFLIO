@@ -58,6 +58,16 @@ color: #cdf381;
 transform: translateY(0px);
 opacity: 1;
 }
+.cardMove{
+  position: relative;
+  transform: translateX(100px);
+  transition: all 0.9s ease;
+  opacity: 0;
+}   
+.cardMove.leftMove{
+  transform: translateX(0px);
+  opacity: 1;
+}
 .growth{
   position: relative;
   transition: all 0.7s ease;
@@ -375,17 +385,14 @@ width: 100%;
 }
 .intergrat{
   padding: 42px 17px;
-  display: flex;
   gap: 10px;
-  justify-content: center;
 }
 .intergratTextThree,
 .intergratTextTwo,
 .intergratTextOne{
 background-color: #f7f7f7;
 border-radius: 10px;
-width: 50%;
-padding: 10px 15px;
+padding: 25px 35px;
 }
 .intergratTextTwo,
 .intergratTextOne{

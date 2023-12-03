@@ -24,18 +24,18 @@ return(
         </svg>
         
 
-<div className="intergratTextOne">
+<div className="intergratTextOne cardMove">
 <h3 className="intergratTitle">Meeting with UX & UI Desginer</h3>
 <p className="intergratPara">We discuss the tasks and propose a design that meets the needs and satisfies all parties. After the design,
  we begin discussing the improvements that can be added.</p>
 </div>
-<div className="intergratTextTwo">
+<div className="intergratTextTwo cardMove">
 <h3 className="intergratTitle">The program Build</h3>
 <p className="intergratPara">After completing the design, the production and programming phase begins,
  where the design is transformed into a charming and professional front interface,taking into account all device sizes,
  facilitating use for the customer, and simplifying all his tasks.</p>
 </div>
-<div className="intergratTextThree">
+<div className="intergratTextThree cardMove">
 <h3 className="intergratTitle">Merge with Back-end</h3>
 <p className="intergratPara">It is integrated or linked with the backend depending on the project and the required data,
  with a set of specific stages for the best use of the user and updating the data automatically.</p>

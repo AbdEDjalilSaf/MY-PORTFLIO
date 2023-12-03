@@ -31,6 +31,25 @@ if(revealTop < windowHeight - revealPoint){
 }
 }
 }
+
+
+window.addEventListener("scroll",cardMove);
+
+function cardMove(){
+let cardMoves = document.querySelectorAll(".cardMove");
+
+for(let j=0;j<cardMoves.length;j++){
+let windowHeight = window.innerHeight;
+let cardMovesTop = cardMoves[j].getBoundingClientRect().top;
+let cardMovesPoint = 100;
+
+if(cardMovesTop < windowHeight - cardMovesPoint){
+  cardMoves[j].classList.add("leftMove");
+}else{
+  cardMoves[j].classList.remove("leftMove");
+}
+}
+}
 </script>
 
 <script type="text/javascript">
