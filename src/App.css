@@ -373,6 +373,28 @@ width: 100%;
   color: #503bd5;
   z-index: 100;
 }
+.intergrat{
+  padding: 42px 17px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.intergratTextThree,
+.intergratTextTwo,
+.intergratTextOne{
+background-color: #f7f7f7;
+border-radius: 10px;
+padding: 10px 15px;
+}
+.intergratTextTwo,
+.intergratTextOne{
+  margin-bottom: 30px;
+}
+.intergratTitle{
+  font-size: 20px;
+  margin-bottom: 13px;
+}
 
 
 
@@ -527,6 +549,24 @@ width: 100%;
   font-size: 10px;
   color: #503bd5;
   z-index: 100;
+}
+.intergrat{
+  padding: 42px 17px;
+}
+.intergratTextThree,
+.intergratTextTwo,
+.intergratTextOne{
+background-color: #f7f7f7;
+border-radius: 10px;
+padding: 10px 15px;
+}
+.intergratTextTwo,
+.intergratTextOne{
+  margin-bottom: 30px;
+}
+.intergratTitle{
+  font-size: 20px;
+  margin-bottom: 13px;
 }
 
 
@@ -1039,6 +1079,24 @@ width: 100%;
   color: #503bd5;
   z-index: 100;
 }
+.intergrat{
+  padding: 42px 17px;
+}
+.intergratTextThree,
+.intergratTextTwo,
+.intergratTextOne{
+background-color: #f7f7f7;
+border-radius: 10px;
+padding: 10px 15px;
+}
+.intergratTextTwo,
+.intergratTextOne{
+  margin-bottom: 30px;
+}
+.intergratTitle{
+  font-size: 20px;
+  margin-bottom: 13px;
+}
 
 
 
@@ -1140,8 +1198,24 @@ width: 100%;
   font-size: 10px;
   color: #503bd5;
 }
-
-
+.intergrat{
+  padding: 42px 17px;
+}
+.intergratTextThree,
+.intergratTextTwo,
+.intergratTextOne{
+background-color: #f7f7f7;
+border-radius: 10px;
+padding: 10px 15px;
+}
+.intergratTextTwo,
+.intergratTextOne{
+  margin-bottom: 30px;
+}
+.intergratTitle{
+  font-size: 20px;
+  margin-bottom: 13px;
+}
 
 
 

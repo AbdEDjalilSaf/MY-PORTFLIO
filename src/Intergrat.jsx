@@ -9,11 +9,7 @@ return(
     <>
 <section className='intergrat '>
 
-
-
-
-
-    <svg  viewBox="0 0 393 852" fill="none" preserveAspectRatio="xMidYmax meet" className="relative">
+    <svg  viewBox="0 0 393 852" fill="none" preserveAspectRatio="xMidYmax meet" className="relative hidden lg:block">
         <path d="M0.5 10C0.5 4.75331 4.7533 0.5 10 0.5H383C388.247 0.5 392.5 4.75329 392.5 10V842C392.5 847.247 388.247 851.5 383 851.5H10C4.75329 851.5 0.5 847.247 0.5 842V10Z" stroke="none"/>
         <line className="growth" x1="198.5" x2="198.5" y2="178" stroke="#503BD5" stroke-width="3"/>
         <ellipse cx="196.5" cy="178" rx="23.5" ry="23" fill="#ffffff" stroke="#503BD5" stroke-opacity="0.733333" stroke-width="3"/>
