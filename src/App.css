@@ -377,7 +377,6 @@ width: 100%;
   padding: 42px 17px;
   display: flex;
   gap: 10px;
-  flex-wrap: wrap;
   justify-content: center;
 }
 .intergratTextThree,
@@ -385,6 +384,7 @@ width: 100%;
 .intergratTextOne{
 background-color: #f7f7f7;
 border-radius: 10px;
+width: 50%;
 padding: 10px 15px;
 }
 .intergratTextTwo,
