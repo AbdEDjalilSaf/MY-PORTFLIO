@@ -61,9 +61,12 @@ opacity: 1;
 .cardMove{
   position: relative;
   transform: translateX(100px);
-  transition: all 0.9s ease;
+  transition: all 1s ease;
   opacity: 0;
-}   
+}  
+.intergratTextTwo.cardMove{
+  transform: translateX(-100px);
+}
 .cardMove.leftMove{
   transform: translateX(0px);
   opacity: 1;
