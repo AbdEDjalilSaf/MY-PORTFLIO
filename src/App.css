@@ -34,6 +34,20 @@ a {
   /* transform: translateY(-200px); */
   display: none;
 }
+.AbdElDjalil{
+  background: -webkit-linear-gradient(
+    180deg,
+    var(--primary-color-alt),
+    var(--primary-color)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+.footerSvg{
+  cursor: pointer;
+}
 .logo{
   font-size: 37px;
   user-select: none;
@@ -47,6 +61,10 @@ p::selection{
 li a{
 font-size: 40px;
 color: #cdf381;
+}
+.footerApp{
+  background-color: #503bd5;
+  color: #fff;
 }
 .reveal{
   position: relative;
