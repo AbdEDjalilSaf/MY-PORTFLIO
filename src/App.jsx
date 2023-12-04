@@ -7,7 +7,7 @@ import Design from './Desgin.jsx'
 import Overyears from './Overyears.jsx'
 import Article from './Article.jsx'
 import Intergrat from './Intergrat.jsx'
-
+import Footer from './Footer.jsx'
 
 function App() {
 
@@ -69,7 +69,7 @@ return (
 <Overyears />
 <Article />
 <Intergrat />                       
-  
+<Footer />
   
   
 
