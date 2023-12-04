@@ -11,7 +11,7 @@ return (
     <>
 <section className='article '>
 
-<div className="articleDesgin bg-white reveal" id="articleOne">
+<div className="articleDesgin bg-white " id="articleOne">
 <h3 className="articleTitle reveal">I build &<br /> design stuff</h3>
 <p className="articlePara reveal">
 Open source<br />
@@ -21,7 +21,7 @@ and experimentals.</p>
 
 
 </div>
-<div className="articleDesgin bg-white reveal">
+<div className="articleDesgin bg-white ">
 <h3 className="articleTitle reveal">I write ,<br /> sometimes</h3>
 <p className="articlePara reveal">
 About design,<br />

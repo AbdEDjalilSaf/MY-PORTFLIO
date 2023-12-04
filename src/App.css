@@ -777,7 +777,7 @@ background-color: transparent;
 border-radius: 10px;
 padding: 25px 35px;
 position: absolute;
-width: 35%;
+/* width: 35%; */
 }
 .intergratTextTwo,
 .intergratTextOne{
@@ -795,14 +795,17 @@ width: 35%;
 .intergratTextOne{
   top: 14%;
   left: 10%;
+  width: 35%;
 }
 .intergratTextTwo{
   top: 38%;
   right: 10%; 
+  width: 35%;
 }
 .intergratTextThree{
   top: 66%;
   left: 10%;
+  width: 35%;
 }
 
 
@@ -1010,6 +1013,49 @@ width: 100%;
   color: #503bd5;
   z-index: 100;
 }
+.intergrat{
+  padding: 0 17px;
+  gap: 10px;
+}
+.intergratTextThree,
+.intergratTextTwo,
+.intergratTextOne{
+background-color: transparent;
+border-radius: 10px;
+padding: 25px 35px;
+position: absolute;
+/* width: 35%; */
+}
+.intergratTextTwo,
+.intergratTextOne{
+  margin-bottom: 30px;
+}
+.intergratTitle{
+  font-size: 23px;
+  margin-bottom: 13px;
+}
+.intergratSVG{
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+}
+.intergratTextOne{
+  top: 17%;
+  left: 10%;
+  width: 32%;
+}
+.intergratTextTwo{
+  top: 42%;
+  right: 10%;
+  width: 32%; 
+}
+.intergratTextThree{
+  top: 70%;
+  left: 10%;
+  width: 32%;
+}
+
+
 
 
 
