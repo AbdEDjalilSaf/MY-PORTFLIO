@@ -60,12 +60,12 @@ opacity: 1;
 }
 .cardMove{
   position: relative;
-  transform: translateX(100px);
+  transform: translateX(-100px);
   transition: all 1s ease;
   opacity: 0;
 }  
 .intergratTextTwo.cardMove{
-  transform: translateX(-100px);
+  transform: translateX(100px);
 }
 .cardMove.leftMove{
   transform: translateX(0px);
@@ -766,8 +766,44 @@ width: 100%;
   color: #503bd5;
   z-index: 100;
 }
-
-
+.intergrat{
+  padding: 42px 17px 0;
+  gap: 10px;
+}
+.intergratTextThree,
+.intergratTextTwo,
+.intergratTextOne{
+background-color: transparent;
+border-radius: 10px;
+padding: 25px 35px;
+position: absolute;
+width: 35%;
+}
+.intergratTextTwo,
+.intergratTextOne{
+  margin-bottom: 30px;
+}
+.intergratTitle{
+  font-size: 23px;
+  margin-bottom: 13px;
+}
+.intergratSVG{
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+}
+.intergratTextOne{
+  top: 14%;
+  left: 10%;
+}
+.intergratTextTwo{
+  top: 38%;
+  right: 10%; 
+}
+.intergratTextThree{
+  top: 66%;
+  left: 10%;
+}
 
 
 
