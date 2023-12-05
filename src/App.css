@@ -58,7 +58,8 @@ h3::selection,
 p::selection{
   background-color: #503bd5 / 50%;
 }
-li a{
+.textLink,
+.textBase{
 font-size: 40px;
 color: #cdf381;
 }
@@ -126,7 +127,7 @@ section{
 .menuSvg{
   transition: all 10s ease;
 }
-li a{
+li {
   cursor: pointer;
 }
 .bgHeader{
