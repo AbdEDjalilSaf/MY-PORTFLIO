@@ -9,11 +9,8 @@ function AboutME(){
 
 return(
 <>
-<p>Helllonlj e;jse,mdv .,nhsc, , iuhszx .mxbidbsb </p>
 
-
-
-<p>Helllonlj e;jse,mdv .,nhsc, , iuhszx .mxbidbsb </p>
+<p className="text-red-500 bg-black">wiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiittttttttttttttttttttttttttt </p>
 
 
 

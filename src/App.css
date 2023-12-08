@@ -44,6 +44,7 @@ a {
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   cursor: pointer;
+  user-select: none;
 }
 .footerSvg{
   cursor: pointer;

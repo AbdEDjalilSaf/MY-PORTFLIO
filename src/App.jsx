@@ -9,6 +9,8 @@ import Article from './Article.jsx'
 import Intergrat from './Intergrat.jsx'
 import Footer from './Footer.jsx'
 import { Link, Routes ,Route } from 'react-router-dom';
+import AboutME from './AboutME';
+
 
 function App() {
 
@@ -24,12 +26,12 @@ return (
   <>
   <div className='bgHeader '>
 <section className='relative '>
-<div className='w-full fixed headerFixed overflow-x-hidden top-0'>
-    <header className='py-4 header justify-between px-10 overflow-x-hidden lg:py-7 lg:px-15 xl:pt-5 xl:pb-5 xl:px-20 flex items-center md:justify-between xl:justify-between lg:justify-between z-50'>
+<div className='w-full fixed headerFixed  overflow-x-hidden top-0'>
+    <header className='py-4 header justify-between px-10 overflow-x-hidden lg:py-7 lg:px-15 xl:pt-4 xl:pb-4 xl:px-20 flex items-center md:justify-between xl:justify-between lg:justify-between z-50'>
       <a className=' logo appFixed cursor-pointer'>S</a>
       <nav>
       <ul className='flex gap-10 items-center'>
-        <li><Link className='textLink hidden md:block  active'>Home</Link></li>
+        <li><Link to="/" className='textLink hidden md:block  active'>Home</Link></li>
         <li><Link  className='textBase hidden md:block'>PROJECTS</Link></li>
         <li><Link  to='/AboutME' className='textBase hidden md:block'>ABOUT ME</Link></li>
         <button onClick={clickMenuSvg} className='md:hidden'>
@@ -76,13 +78,10 @@ return (
   
 
 
-
-
-<Routes>
-  <Route path='/' {<AboutME />} />
-  <Route path='/' {<Design />} />
+ <Routes>
+  <Route path='AboutME' element={<AboutME />} />
   
-</Routes>
+</Routes>   
 
   </>
 
