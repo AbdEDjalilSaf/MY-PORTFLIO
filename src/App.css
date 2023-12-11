@@ -112,6 +112,9 @@ header{
 .articlePara{
   color: #555;
 }
+li {
+  cursor: pointer;
+}
 section{
   scroll-snap-align: start;
   scroll-snap-stop: always;
@@ -235,6 +238,9 @@ ul, ol, li {
   html{
     scroll-snap-type: none;
     scroll-behavior: smooth;
+    }
+    ul li{
+      display: block;
     }
   .flexLanding{
     margin-top: 20px;
@@ -436,6 +442,9 @@ padding: 25px 35px;
   html{
     scroll-snap-type: none;
     scroll-behavior: smooth;
+    }
+    ul li{
+      display: none;
     }
   .flexLanding{
     flex-wrap: wrap;
