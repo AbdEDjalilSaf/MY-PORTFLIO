@@ -1,3 +1,27 @@
 .text{
-    color: #3067B1;
+    color: #2e68b2;
 }
+
+
+
+@media (min-width:1200px) {
+    .app{
+        gap: 138px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
