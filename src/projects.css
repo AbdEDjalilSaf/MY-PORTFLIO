@@ -1,12 +1,8 @@
-.text{
-    color: #2e68b2;
-}
 
 
-
-@media (min-width:1200px) {
-    .app{
-        gap: 138px;
+@media (min-width:1024px) {
+    .longSvg{
+        width: 380px;
     }
 }
 
